@@ -1,3 +1,48 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media only screen and (max-width: 600px) {
+  #Messages {
+    width: 100% !important;
+  }
+  #Header {
+    width: 100% !important;
+  }
+  .webname {
+    font-size: 1.5rem !important;
+  }
+  .logo {
+    margin-left: 20%;
+  }
+  .bgbox {
+    padding: 3rem 37px !important;
+  }
+  .messsageview {
+    width: 100% !important;
+  }
+  .fullview {
+    width: 100%;
+    margin-left: 0 !important;
+  }
+  .messageBottom {
+    width: 100% !important;
+  }
+  #BG {
+    background-image: none !important;
+  }
+  #MessagesSection {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    bottom: 64px;
+    padding-top: 0;
+    padding-bottom: 0;
+    z-index: 99;
+    background-color: #e5e7eb;
+    padding: 25px;
+  }
+  .innermsg {
+    padding: 0;
+  }
+}

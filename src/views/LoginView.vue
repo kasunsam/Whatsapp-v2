@@ -7,12 +7,14 @@
 
     <div class="max-w-xl mx-auto">
       <div class="mt-10 flex items-center w-full">
-        <img width="40" src="whatsapp-logo.png" alt="" />
+        <img width="40" src="whatsapp-logo.png" class="logo" alt="" />
         <div class="font-semibold text-gray-100 ml-6">WHATSAPP WEB</div>
       </div>
 
-      <div class="bg-white z-10 p-24 m-6 mt-10">
-        <div class="text-center text-4xl text-gray-700 font-light pb-10">
+      <div class="bg-white z-10 p-20 m-6 mt-10 bgbox">
+        <div
+          class="text-center text-3xl text-gray-700 font-light pb-10 webname"
+        >
           WhatsApp Web
         </div>
         <div class="w-full flex justify-center bg-[#191919] p-3 rounded-md">
